@@ -6,7 +6,8 @@ from selenium.webdriver.common.keys import Keys
 browser = webdriver.Chrome('/home/sifat/scrapping/chromedriver')
 
 browser.get("https://twitter.com/Sah75official")
-time.sleep(2)
+sleepTime = 1
+time.sleep(sleepTime)
 
 elem = browser.find_element_by_tag_name("body")#grab the whole thing....https://stackoverflow.com/questions/21006940/how-to-load-all-entries-in-an-infinite-scroll-at-once-to-parse-the-html-in-pytho
 
